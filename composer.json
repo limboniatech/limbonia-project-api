@@ -11,7 +11,7 @@
     "require": {
         "php": "^7.2",
         "limboniatech/limbonia-loader": "dev-master",
-        "limboniatech/limbonia-project-base": "dev-master",
+        "limboniatech/limbonia-project-base": "dev-master"
     },
     "autoload": {
         "psr-4": {
