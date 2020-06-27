@@ -2,6 +2,7 @@
     "name": "limbonia/limbonia",
     "description": "This is the Limbonia Code Library",
     "type": "library",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Lonnie Blansett",
