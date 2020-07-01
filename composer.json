@@ -1,6 +1,6 @@
 {
     "name": "limboniatech/limbonia-project-api",
-    "description": "This is the Limbonia Code Library",
+    "description": "This is the Limbonia API Project Library",
     "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
@@ -12,7 +12,8 @@
     "require": {
         "php": "^7.2",
         "limboniatech/limbonia-loader": "dev-master",
-        "limboniatech/limbonia-project-base": "dev-master"
+        "limboniatech/limbonia-project-base": "dev-master",
+        "limboniatech/limbonia-project-api": "dev-master"
     },
     "autoload": {
         "psr-4": {
