@@ -12,5 +12,5 @@ namespace Limbonia\Controller\Api;
 class ResourceKey extends \Limbonia\Controller\ResourceKey implements \Limbonia\Interfaces\Controller\Api
 {
   use \Limbonia\Traits\Controller\Api;
-  use \Limbonia\Traits\Controller\ApiModel;
+  use \Limbonia\Traits\Controller\Api\HasModel;
 }

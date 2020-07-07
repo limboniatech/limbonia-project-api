@@ -12,7 +12,7 @@ namespace Limbonia\Controller\Api;
 class Profile extends \Limbonia\Controller\Profile implements \Limbonia\Interfaces\Controller\Api
 {
   use \Limbonia\Traits\Controller\Api;
-  use \Limbonia\Traits\Controller\ApiModel;
+  use \Limbonia\Traits\Controller\Api\HasModel;
 
   /**
    * List of controllers this controller depends on to function correctly

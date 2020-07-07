@@ -12,7 +12,7 @@ namespace Limbonia\Controller\Api;
 class User extends \Limbonia\Controller\User implements \Limbonia\Interfaces\Controller\Api
 {
   use \Limbonia\Traits\Controller\Api;
-  use \Limbonia\Traits\Controller\ApiModel
+  use \Limbonia\Traits\Controller\Api\HasModel
   {
     processApiGetModel as originalProcessApiGetModel;
   }
