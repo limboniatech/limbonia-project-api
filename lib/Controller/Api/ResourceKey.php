@@ -9,7 +9,7 @@ namespace Limbonia\Controller\Api;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class ResourceKey extends \Limbonia\Controller\Base\ResourceKey implements \Limbonia\Interfaces\Controller\Api
+class ResourceKey extends \Limbonia\Controller\ResourceKey implements \Limbonia\Interfaces\Controller\Api
 {
   use \Limbonia\Traits\Controller\Api;
   use \Limbonia\Traits\Controller\ApiModel;

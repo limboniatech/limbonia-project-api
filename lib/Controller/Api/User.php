@@ -9,7 +9,7 @@ namespace Limbonia\Controller\Api;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class User extends \Limbonia\Controller\Base\User implements \Limbonia\Interfaces\Controller\Api
+class User extends \Limbonia\Controller\User implements \Limbonia\Interfaces\Controller\Api
 {
   use \Limbonia\Traits\Controller\Api;
   use \Limbonia\Traits\Controller\ApiModel

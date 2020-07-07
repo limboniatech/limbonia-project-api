@@ -9,7 +9,7 @@ namespace Limbonia\Controller\Api;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class Auth extends \Limbonia\Controller\Base\Auth implements \Limbonia\Interfaces\Controller\Api
+class Auth extends \Limbonia\Controller\Auth implements \Limbonia\Interfaces\Controller\Api
 {
   use \Limbonia\Traits\Controller\Api
   {

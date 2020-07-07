@@ -9,7 +9,7 @@ namespace Limbonia\Controller\Api;
  * @author Lonnie Blansett <lonnie@limbonia.tech>
  * @package Limbonia
  */
-class ResourceLock extends \Limbonia\Controller\Base\ResourceLock implements \Limbonia\Interfaces\Controller\Api
+class ResourceLock extends \Limbonia\Controller\ResourceLock implements \Limbonia\Interfaces\Controller\Api
 {
   use \Limbonia\Traits\Controller\Api;
   use \Limbonia\Traits\Controller\ApiModel;
